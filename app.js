@@ -25,7 +25,7 @@
 var topicToBePublishedOn = 'myTopic';
 
 // Wait this many seconds before publishing the next set of data
-var varIntervalBetweenData = 2;
+var varIntervalBetweenData = 1;
 
 // Quality of Serive for the publish event. Supported values : 0, 1, 2
 var QosLevel = 0;
