@@ -68,6 +68,17 @@ var cfenv = require('cfenv');
 // get the application environment from Cloud Foundry
 var appEnv = cfenv.getAppEnv();
 
+
+var serialport = require('serialport');
+var SerialPort = serialport.SerialPort;
+ 
+// list serial ports:
+serialport.list(function (err, ports) {
+  ports.forEach(function(port) {
+    console.log(port.comName);
+  });
+});
+
 console.log('');
 console.log('--- DEBUG appENV: ---');
 console.log(appEnv);
