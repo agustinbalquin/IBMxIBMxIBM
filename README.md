@@ -1,3 +1,9 @@
+# IBM Watson - SBHacks 2016 submission- IBM Watson API challenge winner
+
+This Project was created with Node-Red on the bluemix platform. This code is only the simulated data that was run on the raspberry pi. The program filtering the data is present on bluemix and connects to an arduino with python scripts edited by Agustin Balquin and Gustavo Correa. Jiunn Siow configured the leap motion technology that allows us to "swipe" left and right to navigate through the LED interfaces.
+Currently we are attempting to improve on the project and are currently configuring the Node-Red backend deployment to a server, as well as the hardware wiring of "Watson" using better IC's.
+This project was created in under 36 hours during UCSB's hackathon in 2016. It recieved multiple commenations including the IBM Watson API challenge.
+
 # Device Simulator Overview
 
 What if you're building or testing Internet of Things (IoT) solutions based on the [IBM IoT Platform][iotf_url] service ... but don't have an actual device to connect to it? Even if you have a device, maybe you want it to emit specific types and patterns of data?
@@ -39,16 +45,17 @@ The application uses [Node.js](http://nodejs.org/) and [npm](https://www.npmjs.c
     `node app.js`
 
 
-## Next features / help wanted
+## What's Next?
 
-- [ ] Add a web interface
-  - [ ] Allow the entry of the IoT platform org via web interface
-  - [ ] Allow customization via web interface (format and content of data packets, MQTT topics, ...)
-  - [ ] Display status of app (# of messages, topics, data packets, ...) via web interface
+- [ ] IBM Watson Speech to Text recognition with LCD output display
+- 
+- [ ] Mobile Watson integration
+- 
+- [ ] Full node.js server configuration beyone Node-Red GUI
 
-- [ ] Simulate multiple devices in parallel (useful for load testing)
+- [ ] More Leap Motion functions and smoother interface interaction
 
-- [ ] Make app deployable to Bluemix via "Deploy to Bluemix button"
+- [ ] Raspberry Pi Amazon Alexa + IBM Watson
 
 
 ## License
@@ -56,8 +63,6 @@ The application uses [Node.js](http://nodejs.org/) and [npm](https://www.npmjs.c
 This sample code is licensed under Apache 2.0. Full license text is available in [LICENSE](LICENSE).
 
 
-## Open Source @ IBM
-Find more open source projects on the [IBM Github Page](http://ibm.github.io/)
 
 [bluemix_url]: https://bluemix.net
 [iotf_url]: https://console.ng.bluemix.net/catalog/services/internet-of-things-platform/
