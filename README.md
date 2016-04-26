@@ -49,15 +49,15 @@ The application uses [Node.js](http://nodejs.org/) and [npm](https://www.npmjs.c
 
 ## What's Next?
 
-- [ ] IBM Watson Speech to Text recognition with LCD output display
-- 
-- [ ] Mobile Watson integration
-- 
-- [ ] Full node.js server configuration beyone Node-Red GUI
+IBM Watson Speech to Text recognition with LCD output display
 
-- [ ] More Leap Motion functions and smoother interface interaction
+Mobile Watson integration
 
-- [ ] Raspberry Pi Amazon Alexa + IBM Watson
+Full node.js server configuration beyone Node-Red GUI
+
+More Leap Motion functions and smoother interface interaction
+
+Raspberry Pi Amazon Alexa + IBM Watson
 
 
 ## License
