@@ -1,7 +1,9 @@
 # IBM Watson - SBHacks 2016 submission- IBM Watson API challenge winner
 
 This Project was created with Node-Red on the bluemix platform. This code is only the simulated data that was run on the raspberry pi. The program filtering the data is present on bluemix and connects to an arduino with python scripts edited by Agustin Balquin and Gustavo Correa. Jiunn Siow configured the leap motion technology that allows us to "swipe" left and right to navigate through the LED interfaces.
+
 Currently we are attempting to improve on the project and are currently configuring the Node-Red backend deployment to a server, as well as the hardware wiring of "Watson" using better IC's.
+
 This project was created in under 36 hours during UCSB's hackathon in 2016. It recieved multiple commenations including the IBM Watson API challenge.
 
 # Device Simulator Overview
